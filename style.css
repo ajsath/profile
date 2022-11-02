@@ -118,7 +118,7 @@ a:hover {
   position: fixed;
   top: 0px;
   z-index:1;
-} */
+
 
 
 .pagination {
@@ -215,3 +215,4 @@ input[id="dot-20"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + v
 input[id="dot-21"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + var(--rdim)*17));}
 input[id="dot-21"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + var(--rdim)*18));}
 input[id="dot-22"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + var(--rdim)*19));}
+} */
