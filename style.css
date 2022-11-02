@@ -44,13 +44,14 @@ a:hover {
 .container {
   width: 700px;
   margin: 40px auto;
+
+  border-radius: 5px;
 }
 
 
 .card-grey {
-  background-color: rgba(255, 255, 255, 0.143);
   padding: 40px;
-  box-shadow: px 10px 30px rgba(117, 3, 75, 0.537);
+  box-shadow: 0 15px 30px 1px grey;
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
@@ -103,4 +104,9 @@ a:hover {
   .container {
     width: 300px;
   }
+}
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
 }
